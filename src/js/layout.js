@@ -4,7 +4,7 @@ import ScrollToTop from "./component/scrollToTop";
 
 import { Home } from "./views/home";
 import { AddContact } from "./views/AddContact";
-import { Contacts } from "./views/Contacts";
+import  Contacts  from "./views/Contacts";
 import { Edit } from "./component/EditContact";
 import { Card } from "./component/ContactCard";
 import { Demo } from "./views/demo";
@@ -26,7 +26,7 @@ const Layout = () => {
 				<ScrollToTop>
 					<Navbar />
 					<Routes>
-						<Route path="/" element={<Home />} />
+						<Route path="/" element={<Contacts />} />
 						<Route path="/demo" element={<Demo />} />
 						<Route path="/add" element={<AddContact />} />
 						<Route path="/contacts" element={<Contacts />} />
